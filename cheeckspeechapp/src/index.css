@@ -1,0 +1,12 @@
+body{
+    font-family: 'Radio Canada', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+ 
+}
+button, a{
+    cursor: pointer;
+   
+}
