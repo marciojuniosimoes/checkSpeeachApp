@@ -1,0 +1,129 @@
+.box-form {
+  width: 650px;
+  height: 600px;
+  background-color: blue;
+  border-radius: 30px;
+ 
+  }
+  .controle-box-form{
+  padding: 100px 0 0 400px;
+  width: auto;
+
+  
+  }
+.div-nome-email {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.div-nome-email input {
+  box-sizing: border-box;
+  width: 600px;
+  height: 35px;
+  background: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  color: black;
+}
+.div-nome-email label {
+  padding: 6px 6px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.div-nome-email ::placeholder {
+  color: black;
+}
+.div-telefone-pais input {
+  box-sizing: border-box;
+  width: 180px;
+  height: 35px;
+  background: #ffffff;
+  border: none;
+  border-radius: 25px;
+  color: black;
+  padding: 12px;
+}
+.div-telefone-pais select {
+  box-sizing: border-box;
+  width: 180px;
+  height: 35px;
+  background: #ffffff;
+  border: none;
+  border-radius: 25px;
+}
+.div-telefone-pais label{
+    padding: 6px 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.div-telefone-pais{
+   display: flex;
+   flex-direction:row;
+   margin-left: 25px;
+   
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.telefone-pais{
+    display: flex;
+    flex-direction: column;
+}
+.div-telefone-pais ::placeholder{
+    color: black;
+}
+.select option ::placeholder{
+    padding: 12px;
+    color: black;
+    font-size: 16px;
+}
+.textarea input{
+width: 600px;
+height: 200px;
+background: #FFFFFF;
+border: none;
+border-radius: 25px;
+
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+
+}
+.textarea label{
+    padding: 10px 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.textarea ::placeholder{
+    color: black;
+    font-size: 16px;
+    padding: 12px;
+    
+
+}
+.btn-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.btn-enviar{
+width: 161px;
+height: 48px;
+background: #0050ff;
+border-radius: 12px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}

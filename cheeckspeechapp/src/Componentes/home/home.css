@@ -1,21 +1,29 @@
-.container{
-    width: auto;
-    height: auto;
-    background-color: #014E58;
-    display: flex;
-    flex-direction: column;
-}
-.arcos img{
-    margin-top: 150px;
-    width: 1300px;
-    height: 630px;
-    margin-left: 95px;
 
-  
+.container-home{
+    background-color: black;
+
+    
 }
-.bandeiras-logo{
-    margin-top: -600px;
+.arcos video {
+  width: 1300px;
+  margin-left: 150px;
+
 }
 
+.banner-texto{
+  width:800px ;
+}
 
+.banner-texto h1{
+color: white;
+  position: relative;
+  top: -420px;
+  left: 150px;
+  z-index: 2;
+   font-family: 'Radio Canada';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 144px;
 
+}

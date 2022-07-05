@@ -1,0 +1,60 @@
+.card-aba {
+  background-color: #014e58;
+  overflow: auto;
+  margin-top: 12px;
+  margin-left: 82px;
+}
+.card-aba button {
+  background-color: #f1f1f1;
+  border: none;
+  outline: none;
+  border-radius: 25px 25px 0 0;
+  padding: 25px 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 3px;
+  float: left;
+  width: 250px;
+  height: 65px;
+}
+
+.card-aba button.ativado {
+  background-color: #0050ff;
+
+  color: white;
+}
+.conteudo-abas {
+  background-color:#0050ff;
+  padding: 8px;
+  border-top: none;
+    display: block;
+  width: 994px;
+  height: 245px;
+  margin-left: 85px;
+  margin-bottom: 180px;
+  border-radius: 0 0 50px 50px;
+}
+.card-aba button.desativado {
+  background: rgba(255, 251, 253, -0.5);
+  color: black;
+}
+
+.conteudo-desativado {
+  display: none;
+}
+
+.conteudo-abas h3, p{
+    color: white;
+    margin-left: 30px;
+}
+.linha{
+    height: 5px;
+    width: 315px;
+    margin-top: -15px;
+    border-radius: 3px;
+    background-color: #ec8382;
+    margin-left: 30px;
+}
+.container-abas{
+   margin-left: 50px
+    }

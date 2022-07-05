@@ -1,74 +1,90 @@
-nav{
-    position: fixed;
-    box-sizing: border-box;
-    width: 800px;
-    height: 80px;
-    background: rgba(255, 251, 253, 0.5);
-    border: 6px solid rgba(255, 255, 255, 0.4);
-    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.12), inset 0px 0px 48px 5px rgba(0, 0, 0, 0.03);
-    backdrop-filter: blur(31px);
-    border-radius: 10px;
-    margin-left: 40%;
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 25px 70px 25px 110px;
-    z-index: 9;
+.header-flutuante {
+  position: fixed;
+  width: 1440px;
+  height: 80px;
+  background: rgba(255, 251, 253, 0.5);
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.12),
+    inset 0px 0px 48px 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(31px);
+  z-index: 9;
 }
-.header-flutuante{
-    z-index: 9;
+nav {
+  margin-left: 600px;
 }
-a{
-    color: black;
-    font-weight: bold;
-   
-    letter-spacing: 2px;
-    position: relative;
-     text-decoration: none;
-    padding: 0 10px;
+
+.efeito {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: relative;
+  text-decoration: none;
+  padding: 0 15px;
 }
-a:after{
-    content: '';
-    position: absolute;
-    background-color: #0050FF;
-    ;
-    height: 5px;
-    width: 0px;
-    left: 0;
-    bottom:-10px;
-    transition: 0.3s;
-    border-radius: 5px;
- }
-a:hover:after{
-    width: 100%;
+.efeito:after {
+  content: "";
+  position: absolute;
+  background-color: #0050ff;
+  height: 5px;
+  width: 0px;
+  left: 0;
+  bottom: -10px;
+  transition:  0.2s;
+  border-radius: 5px;
 }
-*::after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.efeito:hover:after {
+  width: 100%;
 }
-.logo{
-    display: flex;
-    flex-direction: row;
-    padding: 30px 0 0 60px;
-    position: fixed;
-    cursor: pointer;
-   
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.logo img{
-    width: 60px;
-    height: 60px;
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.img-logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+.sem-efeito {
+  font-family: "Radio Canada";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 60px;
+  letter-spacing: 0.155em;
+  color: white;
+}
+.sem-efeito{
+  text-decoration: none;
+}
+@media screen and (max-width: 700px) {
+  .efeito{
+      width: 100%;
+      height: auto;
+      position: relative;
+  }
+  .efeito a{
+      float: left;
+
+  }
+  .efeito{
+      margin-left: 0;
+  }
+     
+}
+@media screen and (max-width:400px){
+  .efeito a {
+      text-align: center;
+      float: none;
+  }
   
 }
-.logo h1{
-font-family: 'Radio Canada';
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 60px;
-letter-spacing: 0.155em;
-color: white;
-}
-
-
