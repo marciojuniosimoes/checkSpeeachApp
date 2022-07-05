@@ -1,34 +1,21 @@
-import React from 'react'
-import Navbar from '../header/header'
-import Dobra from '../Dobra01/dobra01'
-import Dobra02 from '../Dobra02/dobra02'
-import Dobra03 from '../Dobra03/dobra03'
-import './home.css'
-
-import Arcoazul from '../../assets/vetor-logo.svg'
-
-
+import React from "react";
+import "./home.css";
+import planeta from "../../assets/planeta.mov";
 
 
 const home = () => {
   return (
-    
-    <div className='container'>
-      
-        <Navbar/>
-
-        <div className='arcos'>
-            <img  src={Arcoazul} />
+    <div className="container-home">
+      <div className="arcos">
+            <video autoPlay={true} loop>
+          <source src={planeta} />
+        </video>
+        <div className="banner-texto">
+          <h1>CheckSpeech AI</h1>
         </div>
-   
-        <Dobra/>
-        <Dobra02/>
-        <Dobra03/>
-
-
-
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default home
+export default home;

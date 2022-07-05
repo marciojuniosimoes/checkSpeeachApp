@@ -2,11 +2,15 @@ body{
     font-family: 'Radio Canada', sans-serif;
     margin: 0;
     padding: 0;
-    height: auto;
     width: auto;
- 
-}
+    height: auto;
+
+  }
 button, a{
     cursor: pointer;
    
+}
+.App{
+
+  background-color: #014E58;
 }

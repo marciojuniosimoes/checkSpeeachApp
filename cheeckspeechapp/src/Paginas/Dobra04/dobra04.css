@@ -1,0 +1,27 @@
+.container-principal-dobra04 {
+  display: flex;
+  flex-direction: column;
+  background: #ced4da;
+  width: auto;
+  height: 850px;
+}
+.div-cards {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  justify-content: space-between;
+}
+.card-dobra04 {
+  color: black;
+  margin-top: 150px;
+ 
+  background-image: url(../../assets/retangulo03.svg);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+
+.card-dobra04 h1 {
+  font-size: 45px;
+  margin-left: 60px;
+}
