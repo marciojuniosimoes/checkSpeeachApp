@@ -1,7 +1,7 @@
 
 import './cards.css'
 import React from 'react'
-import { Link } from 'react-router-dom'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const card = ({titulo,paragrafo}) => {
   return (
@@ -15,9 +15,11 @@ const card = ({titulo,paragrafo}) => {
           <span>
            {paragrafo}
           </span>
-          <Link to='/contatos'>
+         <AnchorLink href='#dobra05'>
           <button className="assine">Assine agora</button>
-          </Link>
+
+         </AnchorLink>
+        
           </div>
         </div>
         <div className="card-preco02"></div>

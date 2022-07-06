@@ -1,7 +1,8 @@
 import React from "react";
 import "./header.css";
 import Logo from "../../assets/Logo.svg";
-import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+/*import { Link } from "react-router-dom";*/
 
 const header = (props) => {
   return (
@@ -11,27 +12,17 @@ const header = (props) => {
           <img src={Logo} alt="logo" />
         </div>
         <div className="txt-logo">
-          <Link className="sem-efeito" to="/">
+          <AnchorLink className="sem-efeito" href="#Home">
             <h1>cheeckSpeech</h1>
-          </Link>
+          </AnchorLink>
         </div>
       </div>
       <nav>
-        <Link className="efeito" to="/sobre">
-          Inicio
-        </Link>
-        <Link className="efeito" to="/solucoes">
-          Soluções
-        </Link>
-        <Link className="efeito" to="/clientes">
-          Clientes
-        </Link>
-        <Link className="efeito" to="/precos">
-          Preços
-        </Link>
-        <Link className="efeito" to="/contatos">
-          Contatos
-        </Link>
+        <AnchorLink className="efeito" href="#dobra01">Início</AnchorLink>
+        <AnchorLink className="efeito"  href="#dobra02">Soluções</AnchorLink>
+        <AnchorLink className="efeito"  href="#dobra03"> Clientes</AnchorLink>
+        <AnchorLink className="efeito"  href="#dobra04">Preços</AnchorLink>
+        <AnchorLink className="efeito"  href="#dobra05">Contato</AnchorLink>
       </nav>
     </div>
   );

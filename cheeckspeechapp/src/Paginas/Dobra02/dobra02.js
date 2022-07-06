@@ -8,7 +8,7 @@ import React from "react";
 
 const dobra02 = () => {
   return (
-    <div className="container-principal-dobra02">
+    <div id="dobra02" className="container-principal-dobra02">
       <div className="card-text">
         <h1>Clientes</h1>
       </div>

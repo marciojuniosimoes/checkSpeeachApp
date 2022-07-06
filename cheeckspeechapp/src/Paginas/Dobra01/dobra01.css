@@ -58,7 +58,7 @@
 }
 @media (max-width: 600px) {
   .card-foto {
-    position: fixed;
+    position: relative;
     top: 250px;
     right: 15px;
     width: 50%;

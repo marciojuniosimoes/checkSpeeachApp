@@ -4,7 +4,7 @@ import React from "react";
 
 const dobra05 = () => {
   return (
-    <div className="container-dobra05-principal">
+    <div id="dobra05" className="container-dobra05-principal">
       <Formulario />
     </div>
   );

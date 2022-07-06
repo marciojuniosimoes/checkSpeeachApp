@@ -17,7 +17,7 @@ const routes = () => {
     <div>
       <Router>
         <NavBar />
-        
+    
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<Dobra />} />

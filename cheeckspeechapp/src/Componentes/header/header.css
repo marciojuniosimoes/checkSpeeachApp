@@ -69,20 +69,19 @@ nav {
     height: auto;
     display: flex;
     flex-direction: column;
-    
   }
-nav {
-color: black;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-flex-wrap: wrap;
+  nav {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 
-gap: 15px;
-margin-bottom: 15px;
+    gap: 15px;
+    margin-bottom: 15px;
 
-margin-left: 20px;
+    margin-left: 20px;
   }
   .logo {
     margin-left: 0;
