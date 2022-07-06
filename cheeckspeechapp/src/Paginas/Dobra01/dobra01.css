@@ -24,6 +24,24 @@
 .card-txt h1 {
   font-size: 56px;
 }
+.card-txt button {
+  width: 161px;
+  height: 48px;
+  background: #3c43d2;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 12px;
+  margin-left: -90px;
+}
+.card-txt button:hover {
+  background-color: white;
+  color: #3c43d2;
+}
 .card-foto {
   width: 50%;
   height: 90%;
@@ -37,4 +55,52 @@
   height: 600px;
   margin-left: -268px;
   margin-top: 50px;
+}
+@media (max-width: 600px) {
+  .card-foto {
+    position: relative;
+    top: 250px;
+    right: 15px;
+    width: 50%;
+    height: 25%;
+   
+  }
+  .card-foto img {
+    display: none;
+  }
+  .card-txt h1 {
+    font-size: 26px;
+  }
+  .card-txt h3 {
+    width: 320px;
+    font-size: 14px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .card-txt {
+position: relative;
+top: 200px;
+display: block;
+
+    
+  }
+  .card-txt button{
+    width: 120px;
+  height: 48px;
+  background: #3c43d2;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "radio-canada";
+  border: none;
+
+
+  position: relative
+  ;
+  left: 160px;
+  }
 }

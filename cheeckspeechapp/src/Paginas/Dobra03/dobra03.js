@@ -5,7 +5,7 @@ import React from "react";
 
 const dobra03 = () => {
   return (
-    <div className="container-principal-dobra03">
+    <div id="dobra03" className="container-principal-dobra03">
       <div className="card-solucoes">
         <h1>Soluções</h1>
       </div>

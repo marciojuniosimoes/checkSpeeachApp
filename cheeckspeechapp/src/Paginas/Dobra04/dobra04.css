@@ -3,13 +3,14 @@
   flex-direction: column;
   background: #ced4da;
   width: auto;
-  height: 850px;
+  height: auto;
 }
 .div-cards {
   display: flex;
   flex-direction: row;
   padding: 25px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .card-dobra04 {
   color: black;
@@ -19,6 +20,7 @@
   background-size: 400px;
   background-repeat: no-repeat;
   flex-direction: column;
+ 
 }
 
 .card-dobra04 h1 {

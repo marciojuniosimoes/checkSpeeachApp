@@ -4,7 +4,7 @@ import React from "react";
 
 const dobra04 = (props) => {
   return (
-    <div className="container-principal-dobra04">
+    <div id="dobra04" className="container-principal-dobra04">
       <div className="card-dobra04">
         <h1>Investimento</h1>
       </div>

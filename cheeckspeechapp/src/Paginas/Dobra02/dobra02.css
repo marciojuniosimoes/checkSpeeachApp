@@ -1,7 +1,7 @@
 .container-principal-dobra02 {
   display: flex;
   flex-direction: column;
-  height: 850px;
+  height: auto;
 
   background: #ced4da;
 }
@@ -23,33 +23,76 @@
 .card-clientes {
   width: 1300px;
   height: 400px;
-border: 10px solid #0050FF;
-border-radius: 50px;
-margin-left: 80px;
-margin-bottom: 80px;
-display: flex;
-justify-content: center;
-
-
+  border: 10px solid #0050ff;
+  border-radius: 50px;
+  margin-left: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
 }
-.clientes,.clientesMinty, .clientesTerra{
-    width: 300px;
-    height: 100px;
-    margin-top: 50px;
+.clientes,
+.clientesMinty,
+.clientesTerra {
+  width: 300px;
+  height: 100px;
+  margin-top: 50px;
+}
+.clienteNet {
+  width: 300px;
+  height: 100px;
+  margin-top: 50px;
+}
+.card-coluna1 {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 80px 80px 80px;
+}
+.card-coluna2 {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 80px 80px 80px;
+}
+@media (max-width: 600px) {
+  .container-principal-dobra02{
+    width: 100vw;
+    height: 100vh;
+  }
+  .card-text {
+    display: none;
+  }
+  .card-clientes{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .card-coluna1{
+    position: relative;
+    top: 300px;
+    right: 100px;
+    margin-left:60px;
+
+  
+  }
+  .card-coluna2{
+    position: relative;
+    top: 100px;
+    right: 100px;
+    margin-left:60px;
+  
+  }
+  .clientes,
+.clientesMinty,
+.clientesTerra{
+  width: 150px;
+ margin-bottom: 0;
+ margin-top: 0;
+  
 }
 .clienteNet{
-    width: 300px;
-    height: 100px;
-    margin-top: 50px;
+  width: 150px;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
-.card-coluna1{
-    display: flex;
-    flex-direction: column;
-    padding: 80px 80px 80px 80px;
-}
-.card-coluna2{
-    display: flex;
-    flex-direction: column;
-    padding: 80px 80px 80px 80px;
-
 }

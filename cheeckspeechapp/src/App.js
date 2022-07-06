@@ -1,12 +1,14 @@
 import React from "react";
 import "./index.css";
-
-import Rotas from "./Routes/routes";
+import Landingpage from "./Routes/landingpage";
 
 function App() {
   return (
     <div className="App">
-      <Rotas />
+   
+    <Landingpage/> 
+
+    
     </div>
   );
 }

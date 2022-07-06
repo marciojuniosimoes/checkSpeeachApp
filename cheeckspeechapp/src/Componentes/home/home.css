@@ -1,29 +1,40 @@
-
-.container-home{
-    background-color: black;
-
-    
+.container-home {
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 100vh;
 }
-.arcos video {
-  width: 1300px;
+
+video {
+  width: 1200px;
   margin-left: 150px;
-
 }
 
-.banner-texto{
-  width:800px ;
-}
-
-.banner-texto h1{
-color: white;
+.banner-texto {
+  width: 800px;
+  height: 0px;
   position: relative;
-  top: -420px;
-  left: 150px;
-  z-index: 2;
-   font-family: 'Radio Canada';
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 144px;
+  bottom: 400px;
+  left: 50px;
+}
 
+.banner-texto h1 {
+  color: white;
+  z-index: 2;
+  font-family: "Radio Canada";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 144px;
+}
+@media (max-width: 600px) {
+  video {
+    width: 300px;
+    margin-top: 300px;
+  }
+  .banner-texto h1 {
+    font-size: 18px;
+    position: relative;
+    top: 200px;
+    left: 80px;
+  }
 }

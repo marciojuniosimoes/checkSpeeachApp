@@ -1,32 +1,29 @@
 import React from "react";
 import "./header.css";
 import Logo from "../../assets/Logo.svg";
-import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+/*import { Link } from "react-router-dom";*/
 
 const header = (props) => {
   return (
     <div className="header-flutuante">
       <div className="logo">
         <div className="img-logo">
-          {/*<Link className="sem-efeito" to="/">*/}
           <img src={Logo} alt="logo" />
-          {/*</Link>*/}
         </div>
         <div className="txt-logo">
-          <Link className="sem-efeito" to='/'>
-          <h1>cheeckSpeech</h1>
-          </Link>
+          <AnchorLink className="sem-efeito" href="#Home">
+            <h1>cheeckSpeech</h1>
+          </AnchorLink>
         </div>
       </div>
       <nav>
-        <Link className="efeito" to="/sobre">Inicio</Link>
-        <Link className="efeito" to="/solucoes">Soluções</Link>
-        <Link className="efeito" to="/clientes">Clientes</Link>
-        <Link className="efeito" to="/precos">Preços</Link>
-        <Link className="efeito" to="/contatos">Contatos</Link>
-
-        </nav>
-  
+        <AnchorLink className="efeito" href="#dobra01">Início</AnchorLink>
+        <AnchorLink className="efeito"  href="#dobra02">Soluções</AnchorLink>
+        <AnchorLink className="efeito"  href="#dobra03"> Clientes</AnchorLink>
+        <AnchorLink className="efeito"  href="#dobra04">Preços</AnchorLink>
+        <AnchorLink className="efeito"  href="#dobra05">Contato</AnchorLink>
+      </nav>
     </div>
   );
 };

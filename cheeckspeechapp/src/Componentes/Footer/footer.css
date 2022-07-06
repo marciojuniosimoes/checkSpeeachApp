@@ -45,3 +45,40 @@
 .footer-direitos img{
     margin-right: 5px;
 }
+@media(max-width:600px){
+  .div-footer{
+    width: 100vw;
+    height: 350px;
+
+  }
+  .menu-footer{
+    position: relative;
+    right: 100px;
+  }
+  .links-externos{
+    position: relative;
+    right: 100px;
+  }
+  .menu-footer a,h1{
+    font-size: 14px;
+  }
+  .links-externos img{
+    width: 20px;
+    height: 20px;
+  }
+  .footer-direitos{
+    font-size: 14px;
+      position: relative;
+    right:  400px;
+    top: 120px;
+    display: flex;
+  }
+  .footer-direitos img{
+    width:20px ;
+    height: 20px;
+  
+  }
+  .footer-direitos span{
+    width: 300px;
+  }
+}
