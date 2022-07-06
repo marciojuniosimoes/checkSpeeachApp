@@ -24,10 +24,10 @@
   color: white;
 }
 .conteudo-abas {
-  background-color:#0050ff;
+  background-color: #0050ff;
   padding: 8px;
   border-top: none;
-    display: block;
+  display: block;
   width: 994px;
   height: 245px;
   margin-left: 85px;
@@ -43,18 +43,19 @@
   display: none;
 }
 
-.conteudo-abas h3, p{
-    color: white;
-    margin-left: 30px;
+.conteudo-abas h3,
+p {
+  color: white;
+  margin-left: 30px;
 }
-.linha{
-    height: 5px;
-    width: 315px;
-    margin-top: -15px;
-    border-radius: 3px;
-    background-color: #ec8382;
-    margin-left: 30px;
+.linha {
+  height: 5px;
+  width: 315px;
+  margin-top: -15px;
+  border-radius: 3px;
+  background-color: #ec8382;
+  margin-left: 30px;
 }
-.container-abas{
-   margin-left: 50px
-    }
+.container-abas {
+  margin-left: 50px;
+}

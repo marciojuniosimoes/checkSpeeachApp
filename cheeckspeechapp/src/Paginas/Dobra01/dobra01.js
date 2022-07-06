@@ -1,5 +1,6 @@
 import "./dobra01.css";
 import fotodobra01 from "../../assets/retangulo.svg";
+import { Link } from "react-router-dom";
 
 import React from "react";
 
@@ -16,6 +17,9 @@ const dobra01 = () => {
           nacionalidades, sotaques e níveis de instruções.
           <br /> A API é comercializada no modelo SAAS (software as a service).
         </h3>
+        <Link to="/contatos">
+      <button>Conheça Agora!</button>
+        </Link>
       </div>
       <div className="card-foto">
         <img src={fotodobra01} alt="pht01" />

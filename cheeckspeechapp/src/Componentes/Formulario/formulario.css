@@ -1,10 +1,9 @@
 .box-form {
   width: 650px;
-  height: 600px;
+  height: 660px;
   background-color: blue;
   border-radius: 30px;
- 
-  }
+    }
   .controle-box-form{
   padding: 100px 0 0 400px;
   width: auto;
@@ -126,4 +125,57 @@ border: none;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-top: 12px;
+}
+.btn-enviar:hover{
+  background-color: white;
+  color:black;
+ 
+}
+@media(max-width:600px){
+  .box-form{
+    position: relative;
+    top: 200px;
+    right: 350px;
+
+    width: 320px;
+    height: 480px;
+    margin-bottom: 250px;
+
+  }
+  .controle-box-form{
+    width: auto;
+    height: auto;
+  }
+  .div-nome-email input{
+    width:280px ;
+  }
+  .div-telefone-pais input{
+    width:120px ;
+    margin-right: 0;
+  }
+  .select select{
+    width: 120px;
+    
+  }
+  .select{
+    margin-left: 45px;
+  }
+  .textarea input{
+    width: 280px;
+    height: 80px;
+  }
+  .recaptcha{
+    display: none;
+  }
+.textarea ::placeholder{
+  font-size: 12px;
+}
+.telefone-pais ::placeholder{
+  font-size: 12px;
+  
+}
+.div-nome-email ::placeholder{
+  font-size: 12px;
+}
 }

@@ -3,6 +3,7 @@
   flex-direction: column;
   background: #014e58;
   height: 850px;
+ 
 }
 .card-solucoes {
   color: black;
@@ -16,4 +17,11 @@
 .card-solucoes h1 {
   font-size: 56px;
   margin-left: 60px;
+}
+@media(max-width:600px){
+  .container-principal-dobra03{
+    display: flex;
+    flex-wrap:wrap;
+
+  }
 }

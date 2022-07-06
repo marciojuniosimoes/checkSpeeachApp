@@ -24,11 +24,11 @@ const footer = () => {
         </div>
         <div className='links-externos'
         >
-            <a><img src={WhatsApp} className='instagram'/></a>
-            <a><img src={Instagram} className='instagram'/></a>
-            <a><img src={Linkedin} className='linkedln'/></a>
-            <a><img src={Twitter} className='facebook'/></a>
-            <a><img src={Facebook} className='twiter'/></a>
+            <a href='https://web.whatsapp.com/' target="blank"><img src={WhatsApp} className='instagram'/></a>
+            <a href='https://www.instagram.com/' target="blank"><img src={Instagram} className='instagram'/></a>
+            <a href='https://www.linkedin.com/' target="blank"><img src={Linkedin} className='linkedln'/></a>
+            <a href='https://twitter.com/' target="blank"><img src={Twitter} className='facebook'/></a>
+            <a href='https://www.facebook.com/' target="blank"><img src={Facebook} className='twiter'/></a>
 
         </div>
         <div className='footer-direitos'>

@@ -30,17 +30,13 @@ nav {
   width: 0px;
   left: 0;
   bottom: -10px;
-  transition:  0.2s;
+  transition: 0.2s;
   border-radius: 5px;
 }
 .efeito:hover:after {
   width: 100%;
 }
-*::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -63,28 +59,32 @@ nav {
   letter-spacing: 0.155em;
   color: white;
 }
-.sem-efeito{
+.sem-efeito {
   text-decoration: none;
 }
-@media screen and (max-width: 700px) {
-  .efeito{
-      width: 100%;
-      height: auto;
-      position: relative;
-  }
-  .efeito a{
-      float: left;
 
+@media (max-width: 600px) {
+  .header-flutuante {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
   }
-  .efeito{
-      margin-left: 0;
+nav {
+color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+
+gap: 15px;
+margin-bottom: 15px;
+
+margin-left: 20px;
   }
-     
-}
-@media screen and (max-width:400px){
-  .efeito a {
-      text-align: center;
-      float: none;
+  .logo {
+    margin-left: 0;
   }
-  
 }
