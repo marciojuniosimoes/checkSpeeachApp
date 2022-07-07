@@ -9,7 +9,7 @@ const home = () => {
         <source src={planeta} />
       </video>
       <div className="banner-texto">
-        <h1>CheckSpeech AI</h1>
+        <span>CheckSpeech AI</span>
       </div>
     </div>
   );

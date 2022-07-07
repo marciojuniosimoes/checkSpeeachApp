@@ -1,5 +1,12 @@
-.container-dobra05-principal{
-    width: auto;
-height: auto;
-    display: flex;
+.container-dobra05-principal {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 600px) {
+  .container-dobra05-principal {
+    width: 100vw;
+    height: 100vh;
+  }
 }
