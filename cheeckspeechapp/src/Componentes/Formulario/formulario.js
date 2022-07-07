@@ -1,5 +1,5 @@
 import "./formulario.css";
-import Footer from "../Footer/footer";
+
 import ReCaptchaGoogle from "../ReCaptcha/recaptcha";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -21,7 +21,10 @@ const formulario = () => {
   }
   return (
     <div className="container-form">
-      <div className="controle-box-form">
+      <div className="txt-titulo">
+        Envie sua mensagem<br/> e faça sua cotação.
+      </div>
+ 
         <div className="box-form">
           <form onSubmit={envioForm}>
             <div className="div-nome-email">
@@ -90,8 +93,7 @@ const formulario = () => {
             </div>
           </form>
         </div>
-      </div>
-      <Footer />
+        
       <ToastContainer
         position="top-right"
         autoClose={8000}
@@ -104,7 +106,9 @@ const formulario = () => {
         draggable
         pauseOnHover
       />
-    </div>
+  
+
+      </div>
   );
 };
 

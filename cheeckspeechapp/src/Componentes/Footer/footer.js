@@ -19,8 +19,8 @@ const footer = () => {
             <span className='h1-menu'>Menu</span>
  
        <AnchorLink href='#dobra01'>Início</AnchorLink>
-       <AnchorLink href='#dobra02'>Soluções</AnchorLink>
-       <AnchorLink href='#dobra03'>Clientes</AnchorLink>
+       <AnchorLink href='#dobra02'>Clientes</AnchorLink>
+       <AnchorLink href='#dobra03'>Soluções</AnchorLink>
        <AnchorLink href='#dobra04'>Preços</AnchorLink>
        <AnchorLink href='#dobra05'>Contatos</AnchorLink>
         </div>
@@ -35,7 +35,7 @@ const footer = () => {
         </div>
         <div className='footer-direitos'>
             <img src={Logo} alt="logo"/>
-            <span>CheeckSpeechApp | 2022 | Todos os direitos reservados.</span>
+            <span>CheckSpeechApp | 2022 | Todos os direitos reservados.</span>
             </div>    
 
 

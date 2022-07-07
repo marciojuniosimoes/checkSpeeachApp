@@ -17,7 +17,7 @@ video {
   left: 50px;
 }
 
-.banner-texto h1 {
+.banner-texto span {
   color: white;
   z-index: 2;
   font-family: "Radio Canada";
@@ -29,12 +29,22 @@ video {
 @media (max-width: 600px) {
   video {
     width: 300px;
-    margin-top: 300px;
+
+    position: relative;
+    top: 400px;
+    right: 30px;
   }
-  .banner-texto h1 {
+  .banner-texto  {
     font-size: 18px;
     position: relative;
-    top: 200px;
-    left: 80px;
+    top: 230px;
+  
+  }
+  .banner-texto span{
+    font-size: 24px;
+  }
+  .container-home{
+    width: 100vw;
+    height: 100vh;
   }
 }
